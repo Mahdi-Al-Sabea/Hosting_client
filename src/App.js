@@ -6,7 +6,7 @@ import Register from './pages/Register';
 import TodoList from './pages/TodoList';
 import './App.css';
 
-const API_BASE = process.env.API_BASE;
+const API_BASE = "https://hosting-5b46.onrender.com/api";
 
 
 function App() {
