@@ -6,7 +6,7 @@ import Register from './pages/Register';
 import TodoList from './pages/TodoList';
 import './App.css';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = process.env.API_BASE;
 
 
 function App() {
